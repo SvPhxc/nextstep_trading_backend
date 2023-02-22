@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-19_11q2lt--b@(ftpu&a(id%hc4o4vy9kjf8982^h=f@8qb2em
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'www.nextsteptrading.eu',
+    'nextsteptrading.eu',
     'nextstep-trading-backend.herokuapp.com',
     'nextstep-trading-front-end.herokuapp.com',
     'localhost',
@@ -154,7 +154,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
-    'https://www.nextsteptrading.eu',
+    'https://nextsteptrading.eu',
     'https://nextstep-trading-backend.herokuapp.com',
     'https://nextstep-trading-front-end.herokuapp.com',
 ]
