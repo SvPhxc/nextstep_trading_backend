@@ -30,6 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'www.nextsteptrading.eu',
     'nextstep-trading-backend.herokuapp.com',
+    'nextstep-trading-front-end.herokuapp.com',
     'localhost',
     '127.0.0.1',
     'localhost:3000',
@@ -155,6 +156,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'https://www.nextsteptrading.eu',
     'https://nextstep-trading-backend.herokuapp.com',
+    'https://nextstep-trading-front-end.herokuapp.com',
 ]
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
